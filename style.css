@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000036;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+container {
+  width: 100rem;
+  height: auto;
+  color: #fff;
+}
+
+/* Navigation bar start */
+
+nav {
+  width: 100%;
+  height: 5rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 18rem;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.nav--bar--items {
+  font-size: 1.6rem;
+  display: flex;
+  color: #fff;
+  gap: 4rem;
+}
+
+.navbar--name {
+  font-size: 2.2rem;
+}
+
+.navbar--homename {
+  color: #7562e0;
+}
+
+ul {
+}
+
+li {
+  list-style: none;
+}
+
+/* Navigation bar end */
+
+/* hero section start */
+
+.hero--items {
+  color: #fff;
+}
+
+.hero--jayjay {
+  width: 50%;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.hero--hello--item {
+  font-size: 3.2rem;
+}
+
+.hero--name--item {
+  font-size: 5.2rem;
+}
+
+.hero--info--item {
+  font-size: 1.8rem;
+  width: 36.5rem;
+}
+
+.elipse--img--item {
+  position: relative;
+  bottom: 33rem;
+  width: 35rem;
+  height: 35rem;
+  left: 50rem;
+}
+
+.portrait--img--item {
+  width: 30rem;
+  height: 30rem;
+  position: relative;
+  bottom: 42rem;
+  left: 18rem;
+}
+
+.hero--info--item {
+  margin-bottom: 4rem;
+}
+
+.hero--line {
+  background-color: black;
+  width: 100%;
+  height: 10rem;
+  color: black;
+  position: relative;
+  bottom: 43rem;
+}
+
+.hero--button--items {
+  display: flex;
+  gap: 4rem;
+}
+
+.about--me--button,
+.projects--button {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 5px;
+}
+
+.about--me--button {
+  background-color: #7562e0;
+  color: #fff;
+  border: none;
+}
+
+.projects--button {
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  border: #7562e0 1px solid;
+}
+
+/* hero section end */
+
+/* About me section start */
+.about--me--section {
+  color: #fff;
+  margin-top: -35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 10rem;
+}
+
+.about--me--title {
+  font-size: 3rem;
+  color: #7562e0;
+}
+
+.about--me--info {
+  width: 70rem;
+  font-size: 1.2rem;
+}
+
+.about--me--5plus {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.five--plus--item {
+  color: #7562e0;
+  font-size: 7rem;
+}
+
+.five--plus--info {
+  font-size: 1.6rem;
+  width: 50rem;
+}
+
+.logo--item {
+  width: 4rem;
+  height: 4rem;
+}
+
+.about--me--grid {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about--me--card {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem;
+  gap: 0.6rem;
+}
+
+.inky--card {
+  background-color: #7562e0;
+}
+
+.white--card {
+  background-color: #848191;
+}
+
+.about--me--card--info {
+  font-size: 1.2rem;
+}
+/* About me section end */
+
+/* Profession item start */
+
+.profession--items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.profession--grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 70rem;
+  gap: 1rem;
+}
+
+.profession--grid--item {
+  width: 27rem;
+  height: 27rem;
+  background-color: #7b769700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.profession--title {
+  color: #7562e0;
+  font-size: 2.5rem;
+}
+
+.inky--card {
+  border: #7562e0 solid 0.5rem;
+}
+
+.white--card {
+  border: #848191 solid 0.5rem;
+}
+
+.profession--items {
+  color: #fff;
+}
+
+.profession--card--title {
+  font-size: 1.5rem;
+}
+
+.inky--color {
+  color: #7562e0;
+}
+/* profession section end */
+
+/* Project section start */
+.project--items {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+  width: 60rem;
+}
+
+.project--title {
+  color: #7562e0;
+  font-size: 3rem;
+}
+
+.project--info {
+  font-size: 1.6rem;
+}
+
+.project--grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 2rem;
+}
+
+.project--grid--item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #31313f;
+  width: 26rem;
+  height: 30rem;
+  padding: 1.5rem;
+}
+
+.map--img {
+  width: 23rem;
+  height: 14rem;
+  border-radius: 3px;
+}
+
+.project--grid--title {
+  font-size: 1.6rem;
+  color: #7562e0;
+}
+
+.project--grid--info {
+  font-size: 1.2rem;
+}
+
+.project--grid--button {
+  display: flex;
+  gap: 1.8rem;
+}
+/* Project section end */
